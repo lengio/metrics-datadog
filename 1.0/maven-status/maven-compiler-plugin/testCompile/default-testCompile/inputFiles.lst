@@ -1,6 +1,4 @@
-/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/DatadogGaugeTest.java
-/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/TagUtilsTest.java
-/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/DatadogReporterTest.java
-/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/DatadogCounterTest.java
-/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/TaggedNameTest.java
-/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/transport/UdpTransportTest.java
+/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/io/dropwizard/metrics/DatadogReporterFactoryTest.java
+/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/org/coursera/metrics/datadog/transport/HttpTransportFactoryTest.java
+/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/org/coursera/metrics/datadog/DefaultMetricNameFormatterFactoryTest.java
+/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/org/coursera/metrics/datadog/transport/UdpTransportFactoryTest.java
