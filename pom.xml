@@ -60,16 +60,16 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>3.0.0</version>
-                <configuration>
-                    <altDeploymentRepository>
-                        internal.repo::file://${project.build.directory}/mvn-artifact
-                    </altDeploymentRepository>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-deploy-plugin</artifactId>-->
+<!--                <version>3.0.0</version>-->
+<!--                <configuration>-->
+<!--                    <altDeploymentRepository>-->
+<!--                        internal.repo::file://${project.build.directory}/mvn-artifact-->
+<!--                    </altDeploymentRepository>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -113,29 +113,29 @@
 <!--                    </execution>-->
 <!--                </executions>-->
 <!--            </plugin>-->
-            <plugin>
-                <groupId>com.github.github</groupId>
-                <artifactId>site-maven-plugin</artifactId>
-                <version>0.12</version>
-                <configuration>
-                    <message>Maven artifacts for ${project.version}</message>
-                    <noJekyll>true</noJekyll>
-                    <outputDirectory>${project.build.directory}</outputDirectory>
-                    <path>${project.version}</path>
-                    <merge>true</merge>
-                    <repositoryName>${repository-name}</repositoryName>
-                    <repositoryOwner>${repository-owner}</repositoryOwner>
-                    <server>github</server>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>site</goal>
-                        </goals>
-                        <phase>deploy</phase>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.github.github</groupId>-->
+<!--                <artifactId>site-maven-plugin</artifactId>-->
+<!--                <version>0.12</version>-->
+<!--                <configuration>-->
+<!--                    <message>Maven artifacts for ${project.version}</message>-->
+<!--                    <noJekyll>true</noJekyll>-->
+<!--                    <outputDirectory>${project.build.directory}</outputDirectory>-->
+<!--                    <path>${project.version}</path>-->
+<!--                    <merge>true</merge>-->
+<!--                    <repositoryName>${repository-name}</repositoryName>-->
+<!--                    <repositoryOwner>${repository-owner}</repositoryOwner>-->
+<!--                    <server>github</server>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>site</goal>-->
+<!--                        </goals>-->
+<!--                        <phase>deploy</phase>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
@@ -197,8 +197,9 @@
 
     <distributionManagement>
         <repository>
-            <id>internal.repo</id>
-            <url>file://${project.build.directory}/mvn-artifact</url>
+            <id>github</id>
+            <name>Slang's Java Dropwizard Datadog integration</name>
+            <url>https://maven.pkg.github.com/lengio/metrics-datadog</url>
         </repository>
     </distributionManagement>
 </project>
