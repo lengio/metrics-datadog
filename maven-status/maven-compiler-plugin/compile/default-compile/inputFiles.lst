@@ -1,0 +1,15 @@
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/TagUtils.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/TaggedName.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/DefaultMetricNameFormatter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/MetricNameFormatter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/AwsHelper.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/model/DatadogGauge.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/model/DatadogSeries.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/serializer/Serializer.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/transport/UdpTransport.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/DatadogReporter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/transport/Transport.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/serializer/JsonSerializer.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/DynamicTagsCallback.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/transport/HttpTransport.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/org/coursera/metrics/datadog/model/DatadogCounter.java
