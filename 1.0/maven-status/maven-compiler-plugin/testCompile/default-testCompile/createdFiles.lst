@@ -1,4 +1,8 @@
-org/coursera/metrics/datadog/transport/UdpTransportFactoryTest.class
-org/coursera/metrics/datadog/DefaultMetricNameFormatterFactoryTest.class
-org/coursera/metrics/datadog/transport/HttpTransportFactoryTest.class
-io/dropwizard/metrics/DatadogReporterFactoryTest.class
+org/coursera/metrics/datadog/DatadogGaugeTest.class
+org/coursera/metrics/datadog/DatadogCounterTest.class
+org/coursera/metrics/datadog/DatadogReporterTest.class
+org/coursera/metrics/datadog/DatadogReporterTest$1.class
+org/coursera/metrics/datadog/DatadogReporterTest$NameMetricFilter.class
+org/coursera/metrics/datadog/transport/UdpTransportTest.class
+org/coursera/metrics/datadog/TaggedNameTest.class
+org/coursera/metrics/datadog/TagUtilsTest.class
