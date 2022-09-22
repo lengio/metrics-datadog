@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.coursera.metrics.datadog.DatadogReporterTest
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 17, Skipped: 0, Time elapsed: 0.068 sec <<< FAILURE!
+Tests run: 17, Failures: 0, Errors: 17, Skipped: 0, Time elapsed: 0.064 sec <<< FAILURE!
 reportsWithFilter(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.ExceptionInInitializerError
 	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
@@ -183,7 +183,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-reportsMeters(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0.001 sec  <<< ERROR!
+reportsMeters(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
@@ -347,7 +347,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-reportsDoubleGaugeValues(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0 sec  <<< ERROR!
+reportsDoubleGaugeValues(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
@@ -388,7 +388,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-reportsWithMetricNameFormatter(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0.001 sec  <<< ERROR!
+reportsWithMetricNameFormatter(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
@@ -675,7 +675,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-reportHandlesGaugeMetricExceptions(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0.001 sec  <<< ERROR!
+reportHandlesGaugeMetricExceptions(org.coursera.metrics.datadog.DatadogReporterTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)

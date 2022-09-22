@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.coursera.metrics.datadog.transport.UdpTransportTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 constructsWithReachableHost(org.coursera.metrics.datadog.transport.UdpTransportTest)  Time elapsed: 0 sec  <<< ERROR!
 com.alibaba.dcm.DnsCacheManipulatorException: Fail to clearDnsCache, cause: java.lang.NoSuchFieldException: addressCache
 	at com.alibaba.dcm.DnsCacheManipulator.clearDnsCache(DnsCacheManipulator.java:207)
@@ -84,7 +84,7 @@ Caused by: java.lang.NoSuchFieldException: addressCache
 	at com.alibaba.dcm.DnsCacheManipulator.clearDnsCache(DnsCacheManipulator.java:205)
 	... 30 more
 
-volatileResolverResolvesByTheTimeTheHostIsResolvable(org.coursera.metrics.datadog.transport.UdpTransportTest)  Time elapsed: 0.001 sec  <<< ERROR!
+volatileResolverResolvesByTheTimeTheHostIsResolvable(org.coursera.metrics.datadog.transport.UdpTransportTest)  Time elapsed: 0 sec  <<< ERROR!
 com.alibaba.dcm.DnsCacheManipulatorException: Fail to clearDnsCache, cause: java.lang.NoSuchFieldException: addressCache
 	at com.alibaba.dcm.DnsCacheManipulator.clearDnsCache(DnsCacheManipulator.java:207)
 	at org.coursera.metrics.datadog.transport.UdpTransportTest.cleanDnsCache(UdpTransportTest.java:23)

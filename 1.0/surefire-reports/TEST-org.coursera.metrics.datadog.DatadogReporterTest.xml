@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="0" name="org.coursera.metrics.datadog.DatadogReporterTest" time="0.009" errors="17" skipped="0">
+<testsuite tests="17" failures="0" name="org.coursera.metrics.datadog.DatadogReporterTest" time="0.007" errors="17" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+0"/>
@@ -41,7 +41,7 @@
     <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy -Dregistry=https://maven.pkg.github.com/lengio"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -54,6 +54,7 @@
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2022-01-18"/>
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="registry" value="https://maven.pkg.github.com/lengio"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Homebrew"/>
@@ -246,7 +247,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportsMeters" time="0.001">
+  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportsMeters" time="0">
     <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
@@ -414,7 +415,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportsDoubleGaugeValues" time="0">
+  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportsDoubleGaugeValues" time="0.001">
     <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
@@ -456,7 +457,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportsWithMetricNameFormatter" time="0.001">
+  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportsWithMetricNameFormatter" time="0">
     <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
@@ -750,7 +751,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportHandlesGaugeMetricExceptions" time="0.001">
+  <testcase classname="org.coursera.metrics.datadog.DatadogReporterTest" name="reportHandlesGaugeMetricExceptions" time="0">
     <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
 	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
 	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
