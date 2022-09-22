@@ -1,0 +1,6 @@
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/DatadogGaugeTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/TagUtilsTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/DatadogReporterTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/DatadogCounterTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/TaggedNameTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/org/coursera/metrics/datadog/transport/UdpTransportTest.java
