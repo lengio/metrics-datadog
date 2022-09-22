@@ -1,7 +1,0 @@
-org/coursera/metrics/datadog/DefaultMetricNameFormatterFactory.class
-org/coursera/metrics/datadog/MetricNameFormatterFactory.class
-io/dropwizard/metrics/DatadogReporterFactory.class
-org/coursera/metrics/datadog/DynamicTagsCallbackFactory.class
-org/coursera/metrics/datadog/transport/HttpTransportFactory.class
-org/coursera/metrics/datadog/transport/UdpTransportFactory.class
-org/coursera/metrics/datadog/transport/AbstractTransportFactory.class

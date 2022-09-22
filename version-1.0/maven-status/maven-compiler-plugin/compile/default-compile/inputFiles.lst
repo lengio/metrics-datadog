@@ -1,7 +1,0 @@
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/org/coursera/metrics/datadog/DefaultMetricNameFormatterFactory.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/org/coursera/metrics/datadog/DynamicTagsCallbackFactory.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/io/dropwizard/metrics/DatadogReporterFactory.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/org/coursera/metrics/datadog/MetricNameFormatterFactory.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/org/coursera/metrics/datadog/transport/AbstractTransportFactory.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/org/coursera/metrics/datadog/transport/HttpTransportFactory.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/main/java/org/coursera/metrics/datadog/transport/UdpTransportFactory.java

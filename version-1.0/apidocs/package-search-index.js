@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.dropwizard.metrics"},{"l":"org.coursera.metrics.datadog"},{"l":"org.coursera.metrics.datadog.transport"}];updateSearchResults();
