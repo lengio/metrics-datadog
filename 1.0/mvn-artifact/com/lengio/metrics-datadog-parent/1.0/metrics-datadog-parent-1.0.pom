@@ -122,9 +122,6 @@
                     <noJekyll>true</noJekyll>
                     <outputDirectory>${project.build.directory}</outputDirectory>
                     <path>${project.version}</path>
-                    <includes>
-                        <include>**/*</include>
-                    </includes>
                     <merge>true</merge>
                     <repositoryName>${repository-name}</repositoryName>
                     <repositoryOwner>${repository-owner}</repositoryOwner>
