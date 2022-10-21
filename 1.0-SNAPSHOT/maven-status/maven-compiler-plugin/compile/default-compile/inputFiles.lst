@@ -1,0 +1,15 @@
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/TaggedName.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/model/DatadogSeries.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/AwsHelper.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/model/DatadogCounter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/DatadogReporter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/MetricNameFormatter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/DynamicTagsCallback.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/transport/HttpTransport.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/serializer/JsonSerializer.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/DefaultMetricNameFormatter.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/TagUtils.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/transport/Transport.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/model/DatadogGauge.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/serializer/Serializer.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/main/java/com/lengio/metrics/datadog/transport/UdpTransport.java
