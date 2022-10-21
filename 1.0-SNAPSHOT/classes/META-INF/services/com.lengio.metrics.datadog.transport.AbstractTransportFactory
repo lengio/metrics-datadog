@@ -1,0 +1,2 @@
+com.lengio.metrics.datadog.transport.HttpTransportFactory
+com.lengio.metrics.datadog.transport.UdpTransportFactory

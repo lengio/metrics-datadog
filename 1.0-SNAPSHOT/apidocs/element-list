@@ -1,4 +1,3 @@
 com.lengio.metrics.datadog
-com.lengio.metrics.datadog.model
 com.lengio.metrics.datadog.transport
-com.lengio.metrics.serializer
+io.dropwizard.metrics

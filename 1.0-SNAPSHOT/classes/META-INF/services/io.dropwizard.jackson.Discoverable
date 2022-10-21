@@ -1,0 +1,3 @@
+com.lengio.metrics.datadog.DynamicTagsCallbackFactory
+com.lengio.metrics.datadog.MetricNameFormatterFactory
+com.lengio.metrics.datadog.transport.AbstractTransportFactory
