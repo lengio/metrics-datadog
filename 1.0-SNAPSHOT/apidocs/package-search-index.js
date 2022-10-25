@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.lengio.metrics.datadog"},{"l":"com.lengio.metrics.datadog.model"},{"l":"com.lengio.metrics.datadog.transport"},{"l":"com.lengio.metrics.serializer"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.lengio.metrics.datadog"},{"l":"com.lengio.metrics.datadog.transport"},{"l":"io.dropwizard.metrics"}];updateSearchResults();
