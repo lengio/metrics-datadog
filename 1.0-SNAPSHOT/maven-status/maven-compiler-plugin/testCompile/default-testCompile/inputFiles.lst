@@ -1,4 +1,6 @@
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/com/lengio/metrics/datadog/DefaultMetricNameFormatterFactoryTest.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/io/dropwizard/metrics/DatadogReporterFactoryTest.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/com/lengio/metrics/datadog/transport/HttpTransportFactoryTest.java
-/Users/ricardovillamil/src/metrics-datadog/dropwizard-metrics-datadog/src/test/java/com/lengio/metrics/datadog/transport/UdpTransportFactoryTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/com/lengio/metrics/datadog/TaggedNameTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/com/lengio/metrics/datadog/TagUtilsTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/com/lengio/metrics/datadog/transport/UdpTransportTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/com/lengio/metrics/datadog/DatadogGaugeTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/com/lengio/metrics/datadog/DatadogCounterTest.java
+/Users/ricardovillamil/src/metrics-datadog/metrics-datadog/src/test/java/com/lengio/metrics/datadog/DatadogReporterTest.java
